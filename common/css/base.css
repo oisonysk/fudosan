@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Arial, Helvetica, Verdana, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+	font-size: 0.8em;
+	_text-align: center;
+	background-color: #191411;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,em,address{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+}
+
+
+
+img {
+	display: block;
+}
+
+object,embed {  
+     vertical-align: top;  
+}
+
+a img { border:0; }
+
+a:link {
+   color: #000;
+   text-decoration:none;
+}
+a:visited {
+   color:#000;
+   text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+   color:#000;
+}
+
+.pl5 { padding-left: 5px; }
+.pl10 { padding-left: 10px; }
+.pl20 { padding-left: 20px; }
+.pl30 { padding-left: 30px; }
+.pl40 { padding-left: 40px; }
+.pl50 { padding-left: 50px; }
+.pl60 { padding-left: 60px; }
+.pl70 { padding-left: 70px; }
+.pl80 { padding-left: 80px; }
+.pl90 { padding-left: 90px; }
+.pl100 { padding-left: 100px; }
+
+
+.pt5 { padding-top: 5px; }
+.pt6 { padding-top: 6px; }
+.pt7 { padding-top: 7px; }
+.pt8 { padding-top: 8px; }
+.pt9 { padding-top: 9px; }
+.pt10 { padding-top: 10px; }
+.pt20 { padding-top: 20px; }
+.pt30 { padding-top: 30px; }
+.pt40 { padding-top: 40px; }
+.pt50 { padding-top: 50px; }
+.pt60 { padding-top: 60px; }
+.pt70 { padding-top: 70px; }
+.pt80 { padding-top: 80px; }
+.pt90 { padding-top: 90px; }
+.pt100 { padding-top: 100px; }
+
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
+.mt25 { margin-top: 25px; }
+.mt30 { margin-top: 30px; }
+.mt40 { margin-top: 40px; }
+.mt50 { margin-top: 50px; }
+.mt60 { margin-top: 60px; }
+.mt70 { margin-top: 70px; }
+.mt80 { margin-top: 80px; }
+.mt90 { margin-top: 90px; }
+.mt100 { margin-top: 100px; }
+
+.ml5 { margin-left: 5px; }
+.ml10 { margin-left: 10px; }
+.ml20 { margin-left: 20px; }
+.ml30 { margin-left: 30px; }
+.ml40 { margin-left: 40px; }
+.ml50 { margin-left: 50px; }
+.ml60 { margin-left: 60px; }
+.ml70 { margin-left: 70px; }
+.ml80 { margin-left: 80px; }
+.ml90 { margin-left: 90px; }
+.ml100 { margin-left: 100px; }
+
+.mr5 { margin-right: 5px; }
+.mr10 { margin-right: 10px; }
+.mr20 { margin-right: 20px; }
+.mr30 { margin-right: 30px; }
+.mr40 { margin-right: 40px; }
+.mr50 { margin-right: 50px; }
+.mr60 { margin-right: 60px; }
+.mr70 { margin-right: 70px; }
+.mr80 { margin-right: 80px; }
+.mr90 { margin-right: 90px; }
+.mr100 { margin-right: 100px; }
+
+.mb5 { margin-bottom: 5px; }
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+.mb30 { margin-bottom: 30px; }
+.mb40 { margin-bottom: 40px; }
+.mb50 { margin-bottom: 50px; }
+.mb60 { margin-bottom: 60px; }
+.mb70 { margin-bottom: 70px; }
+.mb80 { margin-bottom: 80px; }
+.mb90 { margin-bottom: 90px; }
+.mb100 { margin-bottom: 100px; }
+
+.both {
+	clear: both;
+}
+.container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top_header {
+	position: relative;
+	height: 150px;
+}
+.h1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+}
+.tel {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+.contents {
+	background-image: url(../images/contents.jpg);
+	background-repeat: repeat-x;
+	background-position: left 429px;
+	background-color: #4B3F31;
+	padding-bottom: 80px;
+}
+.contents_sub {
+	background-image: url(../images/contents.jpg);
+	background-repeat: repeat-x;
+	background-position: left 300px;
+	background-color: #4B3F31;
+	padding-bottom: 80px;
+}
+.side {
+	padding-top: 50px;
+	padding-left: 15px;
+	width: 257px;
+	float: left;
+}
+.main {
+	width: 650px;
+	float: right;
+	padding-top: 30px;
+	padding-right: 15px;
+}
+.fotter_bg {
+	background-image: url(../images/fotter.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.fotter {
+	color: #FFF;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 160px;
+}
+.address {
+	position: absolute;
+	top: 10px;
+	
+}
+
+.fotter_copy {
+	position: absolute;
+	bottom: 3px;
+	right: 5px;
+	font-size: 0.8em;
+}
+.container a:hover img {
+    filter: alpha(opacity=70); 
+	-moz-opacity:0.70;
+	opacity:0.70;
+} 

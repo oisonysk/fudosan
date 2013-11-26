@@ -1,0 +1,2 @@
+User-agent:*
+Sitemap: http://pegasus-corp.com/sitemap.xml

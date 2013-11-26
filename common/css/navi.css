@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navi {
+	list-style-type: none;
+	position: absolute;
+	top:110px;
+}
+.navi a:hover img	{
+    filter: alpha(opacity=0); 
+	-moz-opacity:0.0;
+	opacity:0.0;
+}
+.navi li {
+	float: left;
+}
+.navi1 {
+	background-image: url(../images/navi1_roll.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+.navi2 {
+	background-image: url(../images/navi2_roll.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+.navi3 {
+	background-image: url(../images/navi3_roll.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+.navi4 {
+	background-image: url(../images/navi4_roll.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+.navi5 {
+	background-image: url(../images/navi5_roll.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+.fotter_navi {
+	list-style-type: none;
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+.fotter_navi li {
+	float: left;
+	padding-right: 10px;
+}
+.fotter_navi li a:link {
+   color: #FFF;
+   text-decoration:none;
+}
+.fotter_navi li a:visited {
+   color:#FFF;
+   text-decoration: none;
+}
+.fotter_navi li a:hover {
+	text-decoration:underline;
+}
+.fotter_navi li a:active {
+   color:#FFF;
+}
